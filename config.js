@@ -34,48 +34,26 @@ config = {
     // Configure your URL and mail settings here
     productionBluehost: {
         url: 'http://etsuei.com',
-        mail: {
-            transport: 'SMTP',
-            options: {
-                service: 'Gmail',
-                auth: {
-                    user: 'broveloper@gmail.com',
-                    pass: 'smk$4777'
-                }
-            },
-            fromaddress: 'broveloper@gmail.com'
-        },
         database: {
             client: 'mysql',
             connection: {
                 host: 'localhost',
-                user: 'root',
+                user: 'etsueico_root',
                 password: 'root',
-                database: 'ghost033',
+                database: 'etsueico_ghost',
                 charset: 'utf8'
             },
             debug: false
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '23.226.135.108',
+            host: '173.254.94.121',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '2368'
         }
     },
     productionNodeserv: {
         url: 'http://brogramming.info.com',
-        mail: {
-            transport: 'SMTP',
-            options: {
-                service: 'Gmail',
-                auth: {
-                    user: 'broveloper@gmail.com',
-                    pass: 'smk$4777'
-                }
-            },
-            fromaddress: 'broveloper@gmail.com'
-        },
         database: {
             client: 'mysql',
             connection: {
