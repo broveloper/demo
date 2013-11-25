@@ -39,7 +39,7 @@ config = {
             connection: {
                 host: 'localhost',
                 user: 'etsueico_root',
-                password: 'root',
+                password: '6424282',
                 database: 'etsueico_ghost',
                 charset: 'utf8'
             },
