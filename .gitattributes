@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+*		text=auto
+
+*.html	text
+*.htm	text
+*.php	text
+*.css	text
+*.js	text
+*.sql	text
+*.c 	text
+*.h		text
+
+*.sln	text merge=union eol=crlf
+
+*.docx	diff=astextplain
+*.DOCX	diff=astextplain
+
+# Denote all files that are truly binary and should not be modified.
+*.png	binary
+*.jpg	binary
